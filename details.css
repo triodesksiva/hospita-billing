@@ -1,0 +1,31 @@
+body {
+	background:url(68437563-hospital-wallpapers.jpg)  no-repeat center fixed;
+	
+ 	background-size: cover;
+ 	position:relative;
+ 	font-family: 'Open Sans', sans-serif;
+}
+.hints {
+	margin-top: 5rem;
+}
+.card {
+	opacity: 0.9;
+}
+.card-title {
+	font-size: 1.5rem;
+}
+.lead {
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+}
+.container {
+	max-width: 768px;
+}
+.edit {
+	margin-top: 2rem;
+}
+@media (max-width: 567px) {
+	.w-50 {
+		width: 100% !important;
+	}
+}

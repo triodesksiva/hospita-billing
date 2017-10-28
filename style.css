@@ -1,0 +1,82 @@
+body {
+	background:url(68437563-hospital-wallpapers.jpg)  no-repeat center fixed;
+	
+ 	background-size: cover;
+ 	position:relative;
+ 	font-family: 'Open Sans', sans-serif;
+}
+.login-form {
+	background:#fff;
+	width:32%;
+	margin:9% auto 4% auto;
+ 	position: relative;
+}
+.head {
+	position: absolute;
+	top:-20%;
+	left: 35%;
+}
+.head img {
+	border-radius:50%;
+	
+	border:6px solid rgba(221, 218, 215, 0.23);
+	height: 127px;
+	width: 127px;
+}
+form {
+	padding:24% 2.5em 20%;
+}
+.input-group-addon {
+	background-color: #fafdfc;
+}
+@media (max-width:1024px){
+.login-form  {
+		margin:8% auto 0;
+		width:45%;
+	}
+	
+}
+@media (max-width:768px){
+	.login-form  {
+		margin:12% auto 0;
+		width:57%;
+	}
+	body {
+		background-image: none;
+		background-color: #444;
+	}
+}
+@media (max-width:640px){                                  
+	.login-form  {
+		margin:13% auto 0;
+		width:70%;
+	}
+	
+}
+@media (max-width:480px){                                  
+	.login-form  {
+		margin:20% auto 0;
+		width:90%;
+	}
+	
+	
+}
+@media (max-width:320px){                                  
+	.login-form  {
+		margin:20% auto 0;
+		width:95%;
+	}
+	form{
+		padding:19% 1.5em; 
+	}
+	
+	.head{
+		top: -17%;
+    left: 32.5%;
+	}
+	.head img {
+	width:40%;
+	height: auto;
+	}
+	
+}

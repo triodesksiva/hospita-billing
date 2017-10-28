@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hospital Form</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arapey|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container login-form">
+    	<div class="row">
+    		<div class="col">
+    			<div class="head">
+    				<img src="Botox-Dermal-Fillers-Training-Courses-for-Doctors-1.jpg" alt="">
+    			</div>
+    			<form id="form1" onsubmit="return false" name="form">
+    				<div class="form-group">
+    					<div class="input-group">
+    						<div class="input-group-addon text-muted"><i class="fa fa-user"></i>
+                            </div>
+    						<input type="text" name="name" class="form-control btn-lg border-left-0"  id="name" placeholder="User Name" required>
+    					</div>
+    				</div>
+    				<div class="form-group">
+    					<div class="input-group">
+    						<div class="input-group-addon text-muted"><i class="fa fa-lock"></i></div>
+    						<input type="password" name="password" class="form-control btn-lg border-left-0"  id="password" minlength="4" placeholder="Password" required>
+    					</div>
+    				</div>
+    				<div class="col text-center">
+    					<button type="submit" class="btn  btn-primary mx-auto" id="button" name="button">SIGN IN</button>
+                        <a href="billpay.html" class="btn btn-primary mx-auto">ok</a>
+    				</div>
+    				<div class="row my-3">
+                        <div class="col text-center">
+                            <p class="lead text-success" id="submitmsg"></p>
+                        </div>            
+                    </div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   	<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+   	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
